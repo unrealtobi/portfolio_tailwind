@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+      <!-- Main navigation container -->
+      <nav
+        class="relative flex w-full flex-nowrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
+        data-te-navbar-ref
+      >
+        <div class="flex w-full flex-wrap items-center justify-between px-3">
+          <div class="ml-2">
+            <a class="text-xxl dark:bg-orange-700" href="#">TOBII</a>
+          </div>
+          <!-- Hamburger button for mobile view -->
+          <button
+            class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+            type="button"
+            data-te-collapse-init
+            data-te-target="#navbarSupportedContent2"
+            aria-controls="navbarSupportedContent2"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- Hamburger icon -->
+            <span class="[&>svg]:w-7">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="h-7 w-7"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </button>
+
+          <!-- Collapsible navbar container -->
+          <div
+            class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+            id="navbarSupportedContent2"
+            data-te-collapse-item
+          >
+            <!-- Left links -->
+            <ul
+              class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row"
+              data-te-navbar-nav-ref
+            >
+              <!-- Home link -->
+              <li
+                class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1"
+                data-te-nav-item-ref
+              >
+                <a
+                  class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  aria-current="page"
+                  href="#"
+                  data-te-nav-link-ref
+                  >Home</a
+                >
+              </li>
+              <!-- Features link -->
+              <li
+                class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+                data-te-nav-item-ref
+              >
+                <a
+                  class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  href="#"
+                  data-te-nav-link-ref
+                  >About me</a
+                >
+              </li>
+              <!-- Pricing link -->
+              <li
+                class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+                data-te-nav-item-ref
+              >
+                <a
+                  class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                  href="#"
+                  data-te-nav-link-ref
+                  >Skills</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section>
+        <div class="px-6 py-12 text-center md:px-12 lg:text-left">
+          <div
+            class="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl"
+          >
+            <div class="grid items-center gap-12 lg:grid-cols-2">
+              <div class="mt-12 lg:mt-0">
+                <h1
+                  class="mt-0 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(218,81%,95%)]"
+                >
+                  Hello There! <br /><span class="text-[hsl(218,81%,75%)]"
+                    >I'm Tobi, here's why you should hire me.</span
+                  >
+                </h1>
+                <a
+                  class="mb-2 inline-block rounded bg-neutral-50 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-neutral-800 shadow-[0_4px_9px_-4px_#cbcbcb] transition duration-150 ease-in-out hover:bg-neutral-100 hover:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:bg-neutral-100 focus:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)] dark:hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] md:mr-2 md:mb-0"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  href="#!"
+                  role="button"
+                  >Get to know me</a
+                >
+                <a
+                  class="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-neutral-700 transition duration-150 ease-in-out hover:bg-red-500 hover:bg-opacity-10 hover:text-neutral-200 focus:text-neutral-200 focus:outline-none focus:ring-0 active:text-neutral-300"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  href="#!"
+                  role="button"
+                  >Skills</a
+                >
+              </div>
+              <div class="mb-12 lg:mb-0">
+                <img
+                  src="./images/bigz potrait.jpg"
+                  class="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section  -->
+      <section>
+        <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+        <h1
+          class="mb-2 mt-0 text-5xl text-center justify-center font-medium leading-tight text-primary"
+        >
+          SKILLS
+        </h1>
+        <div class="container flex items-center justify-center bg-orange-300">
+          <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+            <img src="./images/html logos.png" alt="" class="max-w-xs transition duration-300 ease-in-out hover:scale-150"/>
+          </div>
+          <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+            <img
+              src="https://ik.imagekit.io/himalayas/https://cdn-images.himalayas.app/9w3a704t88nxt617os94xdamvz15?tr=w-256,q-100"
+              alt=""
+            />
+          </div>
+          <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihXU8PH96OIWZ9RrD1-alJOeIOuv4yc2jH6CLmHyCJuuxg6vK-Xn05tXIrN4g0YhVM7U&usqp=CAU"
+              alt=""
+              class="w-12 h-15"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+    <script
+      type="text/javascript"
+      src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
+    ></script>
+  </body>
+</html>
